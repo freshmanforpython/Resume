@@ -1,0 +1,144 @@
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+% Medium Length Professional CV
+% LaTeX Template
+% Version 2.0 (8/5/13)
+%
+% This template has been downloaded from:
+% http://www.LaTeXTemplates.com
+%
+% Original author:
+% Trey Hunner (http://www.treyhunner.com/)
+%
+% Important note:
+% This template requires the resume.cls file to be in the same directory as the
+% .tex file. The resume.cls file provides the resume style used for structuring the
+% document.
+%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+
+%----------------------------------------------------------------------------------------
+%	PACKAGES AND OTHER DOCUMENT CONFIGURATIONS
+%----------------------------------------------------------------------------------------
+
+\documentclass{resume} % Use the custom resume.cls style
+
+%\usepackage[letterpaper, left=0.4 in,top=1 in,right=0.4 in,bottom=0.3 in]{geometry} % Document margins
+\usepackage[letterpaper, left=0.5 in,top=0.3 in,right=0.5 in,bottom=0.3 in]{geometry} % Document margins
+\usepackage{hyperref}
+\usepackage{enumitem}
+\newcommand{\tab}[1]{\hspace{.2667\textwidth}\rlap{#1}} 
+\newcommand{\itab}[1]{\hspace{0em}\rlap{#1}}
+
+\name{\textbf{LUYI(LUCY) HAN}}% Your name
+
+\address{\textbf{Mail: }New York, NY 10001$|$\textbf{Tel: }347-849-1999$|$\textbf{Email: }luyihan55@gmail.com} % Your address
+
+%---------------------------------------
+\begin{document}
+
+%----------------------------------------------------------------------------------------
+%	OBJECTIVE
+%----------------------------------------------------------------------------------------
+
+% \begin{rSection}{OBJECTIVE}
+% {\textbf{Seeking full-time Planning/Control Engineer Position starting 2018}}
+% \end{rSection}
+
+%----------------------------------------------------------------------------------------
+%	TECHNICAL STRENGTHS SECTION
+%----------------------------------------------------------------------------------------
+\begin{rSection}{SUMMARY}
+
+\begin{itemize}[leftmargin=0.15cm]
+\setlength{\itemindent}{0em}
+\renewcommand\labelitemi{\textperiodcentered}
+\setlength\itemsep{-0.5em}
+  \item Proficient in Python (Numpy/Pandas/sklearn), R, C++, Powershell; SQL, Azure; Tableau
+  \item Master’s Degree, Finance (MSGF Scholar, Top 10\%); Bachelor’s Degree, Finance \& Computer Science
+  \item Effective at quantitative modeling, structured finance, statistical data analysis \& visualization
+  \item Able to work and communicate with different departments; a bridge between technology \& business
+\end{itemize}
+\end{rSection}
+
+
+
+%----------------------------------------------------------------------------------------
+%	EDUCATION SECTION
+%----------------------------------------------------------------------------------------
+
+\begin{rSection}{Education}
+
+{\bf Fordham University, Gabelli School of Business} \hfill {\bf New York, NY}
+\\
+{Master’s Degree, Global Finance (STEM), GPA:3.72/4.00} \hfill {08/2017 - 02/2019}
+\\
+{Coursework: }{Auto-Trading Systems, Data Mining, Machine Learning, Computational Finance, Financial Modeling} \hfill
+\\
+{\bf Shanghai University of Finance and Economics} \hfill {\bf Shanghai, CN}
+\\
+{Bachelor’s Degree, Computer Science, Finance} \hfill {02/2013 - 06/2017}
+\\
+{Coursework: }{Data Structure, Database Management and Application, Time Series Analysis, Stochastic Process}
+\\
+{Honors: }{Honorable Mention, American Mathematical Contest in Modeling (MCM)} \hfill
+
+
+\end{rSection}
+
+\begin{rSection}{EXPERIENCE}
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\begin{rSubsection}{Sixup PBC, a private student loan company}{\bf New York, NY}{\textit{Data Analyst}}{02/2019 - Present}
+	\item Extract and Transform data by PostgreSQL; Evaluate the database by scenario analysis and frequency analysis
+	\item Build monthly customer performance and portfolio performance analysis by Python, including vintage analysis, transition matrix and delinquency distribution analysis
+	\item Build credit risk models by Python (packages including Numpy, Pandas and sklearn), including delinquent rate model and loss forecasting model based on potential segments, business model and operational plan
+    \item Build A/B test based on different scenarios and improve loan approval process using the segments
+    \item Build weekly marketing performance analysis and operational report, based on user behavior and feature data, by Tableau; Communicate the performance with Business Development, Marketing team and the executives
+    \item Write monthly/quarterly loan allocation performance reports based on waterfall portfolios (over \$30M) to the executives and investors; Make monthly/semi-monthly drawdown to investors by waterfall
+\end{rSubsection}
+
+\begin{rSubsection}{Forex Capital Markets (FXCM)}{\bf New York, NY}{\textit{Quantitative Trading Intern}}{02/2018-08/2018}
+	\item Modeled algorithmic trading strategies for foreign exchange currencies using Python API; Performed R and Python for statistical models such for data exploration and created visualizations of data and results
+	\item Designed and ran experiments to test hypotheses about the market and specific trading signals based on quantitative techniques and large trading datasets
+\end{rSubsection}
+\end{rSection}
+
+\begin{rSection}{PROJECT EXPERIENCE}
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+{\bf Auto Task Management System Building for A Top-Tier Bank}\hfill {\bf 09/2020}
+\renewcommand\labelitemi{\textperiodcentered}
+
+\begin{itemize}[leftmargin=0.15cm]
+\setlength\itemsep{-0.5em}
+  \item Built an auto task management function to process account files of 10k+ customers automatically by Powershell, including files tracker and auto email generator
+\end{itemize}
+
+
+{\bf Stock ETF Trading System} \hfill {\bf 02/2018-06/2018}
+\renewcommand\labelitemi{\textperiodcentered}
+
+
+	\begin{itemize}[leftmargin=0.15cm]
+	\setlength\itemsep{-0.5em}
+	\item Developed an auto real-time trading system, including recommendation algorithm, trading strategy and GUI module, to trade US stocks on the InteractiveBrokers platform using IB-MATLAB API, with a return of 22.78\% from 03/2018 to 06/2018
+	\item Selected stocks by equity research using financial news and companies’ financial reports
+	\item Monitored daily trading activities on InteractiveBrockers and adjusted portfolio monthly by rebalancing stocks
+\end{itemize}
+
+\end{rSection}
+
+\begin{rSection}{VOLUNTEER EXPERIENCE}
+%------------------------------------------------
+%------------------------------------------------
+%------------------------------------------------
+\begin{rSubsection}{Asian Financial Society (AFS)}{\bf New York, NY}{\textit{Executive Assistant, Best Volunteer Award}}{09/2017 - Present}
+	\item Maintain official website using WordPress and HTML, including update and design pages on the website
+	\item Analyze customer data to understand the composition, needs and satisfaction of customers
+\end{rSubsection}
+
+\end{rSection}
+
+\end{document}
